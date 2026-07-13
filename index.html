@@ -179,7 +179,7 @@
   .chip.sw:hover{border-color:var(--blue);}
 
   /* ---------- Projects ---------- */
-  .project-grid{display:grid; grid-template-columns:1fr 1fr; gap:24px;}
+  .project-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:24px;}
   @media (max-width:840px){ .project-grid{grid-template-columns:1fr;} }
   .card{
     background:var(--surface); border:1px solid var(--border); border-radius:14px;
@@ -426,7 +426,6 @@
       <div class="section-head reveal">
         <div class="section-label">Featured Work</div>
         <h2 class="section-title">Projects</h2>
-        <p class="section-sub">Replace the "View Code" links below with your actual GitHub repo URLs for each project.</p>
       </div>
 
       <div class="project-grid">
@@ -439,34 +438,14 @@
           <p class="card-desc">
             Designed a self-healing mesh network topology that automatically
             reconfigures to mitigate signal jamming, validated for transmission
-            reliability under simulated interference. Formed the basis of a
-            co-authored paper accepted at IEEE NMITCON 2026.
+            reliability under simulated interference. 
           </p>
           <div class="card-tags">
             <span class="tag">NS-3</span><span class="tag">netAnim</span>
             <span class="tag">Linux</span><span class="tag">Fault-Tolerant Systems</span>
           </div>
           <div class="card-links">
-            <a href="#" class="card-link">View Code →</a>
-          </div>
-        </div>
-
-        <div class="card sw reveal">
-          <div class="card-top">
-            <div class="card-title">Real-Time Chat Simulator using FreeRTOS</div>
-          </div>
-          <div class="card-date">Jan 2025 – Mar 2025</div>
-          <p class="card-desc">
-            Architected a deterministic real-time messaging system using FreeRTOS
-            tasks, queues, and semaphores. Validated priority-based scheduling and
-            debugged race conditions under resource-constrained conditions.
-          </p>
-          <div class="card-tags">
-            <span class="tag">FreeRTOS</span><span class="tag">Multithreading</span>
-            <span class="tag">Embedded C</span>
-          </div>
-          <div class="card-links">
-            <a href="#" class="card-link">View Code →</a>
+            <a href="https://github.com/Kaviya-118/Intelligent-Anti-Jamming-Wireless-Communication-System-Using-Star-to-Mesh-Hybrid-Architecture-" class="card-link">View Code →</a>
           </div>
         </div>
 
@@ -485,7 +464,7 @@
             <span class="tag">GenAI</span>
           </div>
           <div class="card-links">
-            <a href="#" class="card-link">View Code →</a>
+            <a href="https://github.com/Kaviya-118/Delivery-service-webportal" class="card-link">View Code →</a>
           </div>
         </div>
 
@@ -505,7 +484,7 @@
             <span class="tag">Arduino</span><span class="tag">ESP32</span>
           </div>
           <div class="card-links">
-            <a href="#" class="card-link">View Code →</a>
+            <a href="https://github.com/Kaviya-118/Smart-sewage-gas-alert-system" class="card-link">View Code →</a>
           </div>
         </div>
 
